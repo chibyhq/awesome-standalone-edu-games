@@ -15,7 +15,10 @@ These applications are not suitable as such, but would be nice to have or suppor
 * ![HTML5](https://www.w3.org/html/logo/downloads/HTML5_Badge_32.png) - Physics simulations - e.g. State of matter - Problem : the resolution is fixed and not touch-friendly. Example : 
 https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html
 * A websockets enabled fridge magnet application - All member of a given community can drag letters or words to compose sentences. Still looking for a free one, it would require peer-to-peer or a central websocket server.
-* Hardware accelerated full-screen media player - Gnome-mplayer comes recommended on the CHIP (Mpv would be nice https://mpv.io/ )
+* Hardware accelerated full-screen media player - Gnome-mplayer comes recommended on the CHIP (Mpv would be nice https://mpv.io/ ) - Alternatives are :
+  * Another option would be https://vlc-qt.tano.si/ to create a simple full-screen media player
+  * HPlayer https://github.com/Hemisphere-Project/HPlayer
+  * Or go for an already Dockerized application (to be adapted for armhf though) https://github.com/wernight/docker-mopidy
 * Background music player (to play while other apps are running, to trigger alarm actions).
 
 # Random Musings 
