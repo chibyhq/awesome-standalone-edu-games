@@ -35,6 +35,7 @@ It would be nice to keep a consistent look and feel across apps and UIs. Google 
 * PyQt5 + QML + Multimedia support
 * QtWebView
 * RenPy : Should support Blockly to make Renpy scripts and allow to run them simply.
+  * No support for armhf yet, but instructions exist : https://dlksk.tumblr.com/post/107500026059/getting-renpy-to-run-on-the-raspberry-pi
 * PygameZero
 * Kivy
 * node.js
