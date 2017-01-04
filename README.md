@@ -1,6 +1,6 @@
 # Awesome Standalone Educational Games
 
-List of awesome educational games that can be turned into stand alone applications.
+List of awesome educational games and resources that can be turned into stand alone applications.
 
 ## Ready to package
 These applications or games are already standalone and run off a native system - they just need a healthy dose of Docker package to make them easy to deploy.
@@ -15,8 +15,14 @@ These applications are not suitable as such, but would be nice to have or suppor
 * ![HTML5](https://www.w3.org/html/logo/downloads/HTML5_Badge_32.png) - Physics simulations - e.g. State of matter - Problem : the resolution is fixed and not touch-friendly. Example : 
 https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html
 * A websockets enabled fridge magnet application - All member of a given community can drag letters or words to compose sentences. Still looking for a free one, it would require peer-to-peer or a central websocket server.
+* Hardware accelerated full-screen media player - Gnome-mplayer comes recommended on the CHIP (Mpv would be nice https://mpv.io/ )
+* Background music player (to play while other apps are running, to trigger alarm actions).
 
 # Random Musings 
+
+## Material Design support across the board
+It would be nice to keep a consistent look and feel across apps and UIs. Google Material Design (MD) principles are gaining traction and offer a clean and visually pleasing experience. Some existing MD skins :
+* https://gitlab.com/kivymd/KivyMD
 
 ## Adaptation ideas :
 * Run Chromium and Pepper Flash - applications can be simple URLs to existing web resources (implies connectivity) or locally running ones : https://bbs.nextthing.co/t/chromium-on-chip-pepper-flash/2364/3 
