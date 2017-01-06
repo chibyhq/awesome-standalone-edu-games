@@ -42,12 +42,15 @@ It would be nice to keep a consistent look and feel across apps and UIs. Google 
 
 ## Supported pre-packaged dependency starting points
 
+The following Github repo provides barebones programming language containers (x86 container unfortunately, but easy to adapt) : https://github.com/nacyot/docker-programming-languages
+
 * PyQt5 + QML + Multimedia support
 * QtWebView + Web application (served locally ?)
 * RenPy : Should support Blockly to make Renpy scripts and allow to run them simply.
     * No support for armhf yet, but instructions exist : https://dlksk.tumblr.com/post/107500026059/getting-renpy-to-run-on-the-raspberry-pi
 * PygameZero + Pymunk for physics-based games
 * Kivy
+* Processing.org
 * node.js
 * JavaFX
     * Diozero : Interesting Java 8 with a CHIP port on the way (https://github.com/mattjlewis/diozero)
