@@ -22,6 +22,11 @@ https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-mat
     * Or go for an already Dockerized application (to be adapted for armhf though) https://github.com/wernight/docker-mopidy
 * Background music player (to play while other apps are running, to trigger alarm actions).
 
+### Scratch style programming language
+
+* Snap is a block programming language similar to sratch writtent in javascript, which can easily be downloaded and run locally without connection. The interface is unfortunately not really touch friendly. https://snap.berkeley.edu/. Not tested on the CHIP. 
+* Scratch 3 : Scratch team started working on scratch 3, which should be written in javascript, with a touch friendly block layout. https://wiki.scratch.mit.edu/wiki/Scratch_3.0 prototype : http://llk.github.io/scratch-vm/# and https://llk.github.io/scratch-gui/ . The prototypes don't run smoothly on the rbpi, not tested on the CHIP.
+
 # Random Musings 
 
 ## Google Material Design support across the board
