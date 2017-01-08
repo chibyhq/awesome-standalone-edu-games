@@ -26,6 +26,7 @@ https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-mat
 
 * Snap is a block programming language similar to sratch writtent in javascript, which can easily be downloaded and run locally without connection. The interface is unfortunately not really touch friendly. https://snap.berkeley.edu/. Not tested on the CHIP. 
 * Scratch 3 : Scratch team started working on scratch 3, which should be written in javascript, with a touch friendly block layout. https://wiki.scratch.mit.edu/wiki/Scratch_3.0 prototype : http://llk.github.io/scratch-vm/# and https://llk.github.io/scratch-gui/ . The prototypes don't run smoothly on the rbpi, not tested on the CHIP.
+* Google Blockly : Web-based alternative to Snap and Scratch - written in Javascript, touch-friendly, include support for code generation and supports Javascript, Python, Dart, PHP and LUA
 
 # Random Musings 
 
@@ -49,6 +50,10 @@ It would be nice to keep a consistent look and feel across apps and UIs. Google 
 
 The following Github repo provides barebones programming language containers (x86 container unfortunately, but easy to adapt) : https://github.com/nacyot/docker-programming-languages
 
+* Scratch v2 Project
+    * There is a native Scratch to HTML5 converter from MIT (phosporus)
+    * The photron project packages Scratch project into native Linux ARM apps, however it uses the Electron runtime and conversion to HTML5 - which is too heavy for the Pi and the CHIP (as far as I am concerned)
+    * What other options do we have to package a Scratch project (which are all stored on the Scratch website centrally apparently) into the Squeak VM ?
 * PyQt5 + QML + Multimedia support
 * QtWebView + Web application (served locally ?)
 * RenPy : Should support Blockly to make Renpy scripts and allow to run them simply.
