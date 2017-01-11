@@ -50,7 +50,19 @@ It would be nice to keep a consistent look and feel across apps and UIs. Google 
 
 The following Github repo provides barebones programming language containers (x86 container unfortunately, but easy to adapt) : https://github.com/nacyot/docker-programming-languages
 
-* Scratch v2 Project
+By order of preference / priority : 
+
+### Our top 3
+* Google Blocky
+* PygameZero + Pymunk for physics-based games
+* Processing.org
+    * Supported p2d and p3d sketches on the CHIP : Setup instructions at https://github.com/processing/processing/wiki/C.H.I.P.
+    * Processing Python interpretor (Python Mode) is available (but more of a community effort)
+    * Processing.js (but Javascript node.js rendering might be a bit heavier)
+    * Educational resources (FR) around Processing created by [David Roche] - teacher in Haute Savoie (https://twitter.com/davR74130) http://www.ac-grenoble.fr/disciplines/informatiquelycee/proc_index.html 
+
+### Other contenders   
+    * Scratch v2 Project
     * There is a native Scratch to HTML5 converter from MIT (phosporus)
     * The photron project packages Scratch project into native Linux ARM apps, however it uses the Electron runtime and conversion to HTML5 - which is too heavy for the Pi and the CHIP (as far as I am concerned)
     * What other options do we have to package a Scratch project (which are all stored on the Scratch website centrally apparently) into the Squeak VM ?
@@ -64,19 +76,19 @@ The following Github repo provides barebones programming language containers (x8
     * Available on armhf, following instructions at : https://dlksk.tumblr.com/post/107500026059/getting-renpy-to-run-on-the-raspberry-pi
     * Works well but problem with opengl driver (libGL error: unable to load driver: sun4i-drm_dri.so)
         * One can disable the software opengl implementation by moving all /usr/lib/arm-linux-gnueabihf/libGL.so out of the way.
-* PygameZero + Pymunk for physics-based games
 * Cocos2d-X Cocos2d-python
     * Touch ready ?
  
 * Kivy
-* Processing.org
-    * Supported p2d and p3d sketches on the CHIP : Setup instructions at https://github.com/processing/processing/wiki/C.H.I.P.
-    * Processing Python interpretor (Python Mode) is available (but more of a community effort)
-    * Processing.js (but Javascript node.js rendering might be a bit heavier)
+    * https://kivy.org/#home
+
 * node.js (but is there Framebuffer-based rendering for node ? libraries like pygame or kivy ?)
 * JavaFX
     * Diozero : Interesting Java 8 with a CHIP port on the way (https://github.com/mattjlewis/diozero)
     * JavaFX Material Design UI lib : http://www.jfoenix.com/ 
 * Lua / (Pico8 ?)
+   * Main api language for interfacing with Minetest
+   * Possibility to link between Python -> Lua for Minetest : http://serveur2jeu.info/minetest-installation-de-raspberryjammod-python/
 * Chromium + Flash
 * Kogics http://www.kogics.net/sf:kojo
+* Interactive books and training : https://github.com/RunestoneInteractive/RunestoneServer
