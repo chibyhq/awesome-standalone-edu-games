@@ -79,3 +79,4 @@ The following Github repo provides barebones programming language containers (x8
     * JavaFX Material Design UI lib : http://www.jfoenix.com/ 
 * Lua / (Pico8 ?)
 * Chromium + Flash
+* Kogics http://www.kogics.net/sf:kojo
