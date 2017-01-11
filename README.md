@@ -54,6 +54,10 @@ The following Github repo provides barebones programming language containers (x8
     * There is a native Scratch to HTML5 converter from MIT (phosporus)
     * The photron project packages Scratch project into native Linux ARM apps, however it uses the Electron runtime and conversion to HTML5 - which is too heavy for the Pi and the CHIP (as far as I am concerned)
     * What other options do we have to package a Scratch project (which are all stored on the Scratch website centrally apparently) into the Squeak VM ?
+    * Scratch V3 - a merge of scratch and Google Blockly with horizontal block programming support (very touchscreen friendly)
+* Snap!
+    * Easy to embed / export
+    * Runtime ? What is the runtime ? How do you access native ressources ? It was done for the Ergo Jr project, so it must be possible.
 * PyQt5 + QML + Multimedia support
 * QtWebView + Web application (served locally ?)
 * RenPy : Should support Blockly to make Renpy scripts and allow to run them simply.
@@ -61,6 +65,9 @@ The following Github repo provides barebones programming language containers (x8
     * Works well but problem with opengl driver (libGL error: unable to load driver: sun4i-drm_dri.so)
         * One can disable the software opengl implementation by moving all /usr/lib/arm-linux-gnueabihf/libGL.so out of the way.
 * PygameZero + Pymunk for physics-based games
+* Cocos2d-X Cocos2d-python
+    * Touch ready ?
+ 
 * Kivy
 * Processing.org
     * Supported p2d and p3d sketches on the CHIP : Setup instructions at https://github.com/processing/processing/wiki/C.H.I.P.
